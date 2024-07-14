@@ -15,7 +15,7 @@ const Hero = () => (
     <SectionText>
       Hello I'm Diya Chaudhari, a sophomore at Arizona State Unviersity majoring in Computer Science.
     </SectionText>
-    <Button onClick={() => window.location='https://google.com'}>Download Resume
+    <Button onClick={() => window.location='/Users/diya/Documents/portfolio_website/public/DIYA_RESUME.pdf'}>Download Resume
     </Button>
   </LeftSection>
  </Section>
