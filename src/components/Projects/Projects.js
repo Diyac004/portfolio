@@ -3,17 +3,18 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-
+import shoeimage from '../../../public/images/6.png';
 const Projects = () => (
   <Section nopadding id='projects'>
     
     <SectionTitle main>Projects</SectionTitle>
     <SectionDivider/>
+    
     <GridContainer>
-      {projects.map(({id,image,title,description,tags, video,visit})=>(
+      {projects.map(({id,title,description,tags, video,visit})=>(
         <BlogCard key={id}>
       
-          <Image src={image}
+          <Img src="./images/6.png"
           alt="shoe image"/>
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
