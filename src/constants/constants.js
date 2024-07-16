@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'All Seeing Boots',
     description: "Designed and developed smart shoes for the visually impaired using Raspberry Pi and Python, which enable obstacle detection and assess surface safety. Seamlessly integrated the hardware and software components to enhance the user experience.",
-      image: '../images/B0AD6E4B-4900-420B-84DC-CD183BA44ECE_1_105_c.jpeg',
+      image: './images/6.png',
       tags: ['Raspberry Pi', 'Python'],
     video: 'https://youtu.be/_lTmuviq2Y0',
     visit: 'https://github.com/memcca14/Master-Project',
