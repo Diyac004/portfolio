@@ -3,27 +3,28 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
+  
 `
 
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
+padding: 4rem;
 place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+column-gap: 0rem;
+row-gap: 1rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 5rem;
   padding-bottom: 0;
 }
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -31,26 +32,29 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
-  z-index: 20;
+  padding: 1rem;
   width: 100%;
+ 
+
 
 `;
 
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #9cc9e3;
-  padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  padding: .1rem 1;
+  font-size: ${(props) => props.title ? '5rem' : '3rem'};
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 100px;
   height: 3px;
-  margin: 20px auto;
+  margin: 10px auto;
   border: 0;
   background: #d0bb57;
 `;
@@ -68,13 +72,13 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 30px;
   color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
+  font-style: 5rem;
+  line-height: 20px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding:.2rem
   
 }
 `;
@@ -102,11 +106,11 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
+display: center;
 justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
-font-size: 1.5rem;
+font-size: 1.6rem;
 `

@@ -1,24 +1,46 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
-import { AiOutlineDownload } from "react-icons/ai";
+import Typewriter from 'typewriter-effect';
 
-const Hero = () => (
+
+const Hero = () => {
+  return (
+    
  <Section row nopadding>
   <LeftSection>
     <SectionTitle main center>
-      Welcome To<br/>
-      My Personal Portfolio
+    <Typewriter
+onInit={(typewriter) => {
+  typewriter.typeString('Welcome')
+    .callFunction(() => {
+      console.log('String typed out!');
+    })
+    
+    
+    .callFunction(() => {
+      console.log('All strings were deleted');
+    })
+    .start();
+}}
+/>
+<Typewriter
+onInit={(typewriter) => {
+  typewriter.typeString(' ')
+  .pauseFor(1100)
+  typewriter.typeString('To My Portfolio')
+    .start();
+}}
+/>
     </SectionTitle>
     <SectionText>
-      Hello I'm Diya Chaudhari, a sophomore at Arizona State Unviersity majoring in Computer Science.
+      I'm Diya Chaudhari, undergradute student at Arizona State Unviersity, majoring in Computer Science.
     </SectionText>
-    <Button onClick={() => window.location='/Users/diya/Documents/portfolio_website/public/DIYA_RESUME.pdf'}>Download Resume
-    </Button>
+    <Button onClick={() => window.open('./DIYA_RESUME.pdf','_blank')}>Download Resume</Button>
   </LeftSection>
  </Section>
 );
+};
 
 export default Hero;
