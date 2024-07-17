@@ -27,7 +27,7 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons target='_blank' href="https://github.com/Diyac004">
+      <SocialIcons href="https://github.com/Diyac004" target='_blank'>
       <AiFillGithub size="3rem"/>
       </SocialIcons>
       <SocialIcons target='_blank' href="https://www.linkedin.com/in/diya004/">
