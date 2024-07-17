@@ -3,6 +3,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -42,9 +44,13 @@ const Timeline = () => {
     window.addEventListener('resize', handleResize);
   }, []);
 
+    useEffect(()=>{
+      AOS.init()
+  },[]);
+
   return (
-    <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+    <Section id="Timeline">
+      <SectionTitle data-aos="fade-right">About Me</SectionTitle>
       <SectionDivider></SectionDivider>
       <SectionText>
         I love learning new things and experimenting with different technologies.
@@ -53,7 +59,7 @@ const Timeline = () => {
         <>
         {TimeLineData.map((item,index)=> (
           <CarouselMobileScrollNode key={index} final={index===TOTAL_CAROUSEL_COUNT-1}>
-            <CarouselItem
+            <CarouselItem data-aos="fade-right" data-aos-duration="2000"
               index={index}
               id={`carusel__item-${index}`}
               active={activeItem}
