@@ -47,7 +47,7 @@ const Projects = () => (
             <div>
               <TagList>
              
-                  <Tag>[Nextjs, JavaScript, HTML/CSS, MongoDB, Vercel, Cloud Console]</Tag>
+                  <Tag>[Nextjs, JavaScript, HTML/CSS, MongoDB, Vercel, Google Cloud Console]</Tag>
                 
               </TagList>
             </div>

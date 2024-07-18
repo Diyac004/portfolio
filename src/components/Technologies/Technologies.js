@@ -1,10 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, {useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { DiFirebase, DiReact, DiZend} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 import { AiOutlineCode,AiOutlineUser} from "react-icons/ai";
+import { FaCoins } from "react-icons/fa";
 
 const Technologies = () =>  {
 
@@ -49,7 +49,7 @@ const Technologies = () =>  {
         <ListTitle data-aos="zoom-in-up"> <AiOutlineCode size="3rem" /> Programming
         </ListTitle>
         <ListParagraph data-aos="zoom-in-up">
-        C<br/>
+        Python<br/>
         </ListParagraph>
         <ListParagraph data-aos="zoom-in-up">
         Java<br/>
@@ -62,6 +62,18 @@ const Technologies = () =>  {
         </ListParagraph>
       </ListContainer>
     </ListItem>
+    <ListItem>
+    <ListContainer>
+        <ListTitle data-aos="zoom-in-up"> <FaCoins size="3rem"/> Framework & Database
+        </ListTitle>
+        <ListParagraph data-aos="zoom-in-up">
+        Nextjs<br/>
+        </ListParagraph>
+        <ListParagraph data-aos="zoom-in-up">
+        MongoDB<br/>
+        </ListParagraph>
+      </ListContainer>
+      </ListItem>
   </List>
   </Section>
 );
