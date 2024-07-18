@@ -18,13 +18,13 @@ const Footer = () => {
           <Slogan>Exploring the Tech World!</Slogan>
         </CompanyContainer>
       
-        <SocialIcons href="https://github.com/Diyac004">
+        <SocialIcons href="https://github.com/Diyac004" target='_blank' >
         <AiFillGithub size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/diya004/">
+        <SocialIcons href="https://www.linkedin.com/in/diya004/" target='_blank' >
         <AiFillLinkedin size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/diya__004_?igsh=Y3V1cGJveDVhOW16">
+        <SocialIcons href="https://www.instagram.com/diya__004_?igsh=Y3V1cGJveDVhOW16" target='_blank' >
         <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </SocialIconsContainer>
