@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, VideoContainer,StyledVideo } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
-import shoeimage from '../../../public/images/6.png';
+
 const Projects = () => (
   <Section nopadding id='projects'>
     
@@ -37,8 +36,7 @@ const Projects = () => (
           </BlogCard>
           <BlogCard>
       
-          <Img src="./images/p.png"
-          alt="shoe image"/>
+          <VideoContainer><StyledVideo controls><source src="./images/promptmevid.mp4" type='video/mp4'/> video not found.</StyledVideo></VideoContainer>
           <TitleContent>
             <HeaderThree title>PromptME</HeaderThree>
             <Hr/>
