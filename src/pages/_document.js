@@ -1,4 +1,4 @@
-import Head from 'next/head'
+
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
