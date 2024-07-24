@@ -41,7 +41,13 @@ function Experience() {
                 </time>
                 <ul>
                   <li data-aos="fade-right">
-                  <GoDotFill color="#9ca3af"/><tab/> Build more than 5 AI applications.
+                  <GoDotFill color="#9ca3af"/><tab/> Built 5+ Al apps and APls using NextJS, OpenAl, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users.
+                  </li>
+                  <li data-aos="fade-right">
+                  <GoDotFill color="#9ca3af"/><tab/> Developed projects from design to deployment leading 4+ engineering fellows using MVC design patterns.
+                  </li>
+                  <li data-aos="fade-right">
+                  <GoDotFill color="#9ca3af"/><tab/> Coached by Amazon, Bloomberg and Capital One engineers on Agile, Cl/CD, Git and microservice patterns.
                   </li>
                 </ul>
               </li>
@@ -81,35 +87,7 @@ function Experience() {
                   </li>
                 </ul>
               </li>
-              <br/>
-              <br/>
-              <span>
-                  <svg
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                 <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                  </svg>
-                </span>
-                <li> 
-                <h3 data-aos="fade-right">
-                  Plastic Recycle (Community Service, Volunteer)
-                </h3>
-                <time data-aos="fade-right">
-                  January 2017
-                </time>
-                <ul>
-                  <li data-aos="fade-right">
-                  <GoDotFill color="#9ca3af"/><tab/> Engaged in school-led community service project collecting and recycling plastic waste, promoting environmental awareness and
-                  sustainable practices.
-                  </li>
-                  <li data-aos="fade-right">
-                  <GoDotFill color="#9ca3af"/><tab/> Organized successful awareness campaigns, including events and activities.
-                  </li>
-                </ul>
-              </li>
+             
               
             </ol>
           </div>
