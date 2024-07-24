@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-        <Script
+        <script
         id ="gtm"
         stragety="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
           })(window,document,'script','dataLayer','GTM-T7XVJ9HW');`
 
         }}
-        ></Script>
+        ></script>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
         
           
