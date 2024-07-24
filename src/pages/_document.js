@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
 
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
         
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYQSW4E9S7"
           />
         <script
                   dangerouslySetInnerHTML={{
