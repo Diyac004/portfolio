@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
         
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYQSW4E9S7"
           ></script>
-        <Script
+        <script
         id ="gtm"
         stragety="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -51,7 +51,7 @@ export default class MyDocument extends Document {
         }}
         >              
                      
-                  </Script>
+                  </script>
         </Head>
         <body>
           <Main />
