@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, NavProductsIcon, SocialIcons,Span } from './HeaderStyles';
 import { HiEnvelope } from "react-icons/hi2";
+import { FaXTwitter } from "react-icons/fa6";
 const Header = () =>  (
   <Container>
    
@@ -33,9 +34,13 @@ const Header = () =>  (
       <SocialIcons  href="https://www.linkedin.com/in/diya004/" target='_blank'>
       <AiFillLinkedin size="3rem"/>
       </SocialIcons>
+      <SocialIcons href="https://x.com/Diya_004_" target='_blank' >
+        <FaXTwitter size="3rem"/>
+        </SocialIcons>
       <SocialIcons href="mailto: diyachaudhari004@gmail.com" target='_blank' >
         <HiEnvelope size="3rem"/>
         </SocialIcons>
+      
       <SocialIcons href="https://www.instagram.com/diya__004_?igsh=Y3V1cGJveDVhOW16" target='_blank' >
       <AiFillInstagram size="3rem"/>
       </SocialIcons>

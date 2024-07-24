@@ -29,8 +29,8 @@ const Projects = () => (
               </TagList>
             </div>
           <UtilityList>
-            <ExternalLinks href='https://github.com/memcca14/Master-Project'>Code</ExternalLinks>
-            <ExternalLinks href='https://youtu.be/_lTmuviq2Y0'>Video</ExternalLinks>
+            <ExternalLinks href='https://github.com/memcca14/Master-Project' target='_blank'>Code</ExternalLinks>
+            <ExternalLinks href='https://youtu.be/_lTmuviq2Y0' target='_blank'>Video</ExternalLinks>
 
           </UtilityList>
           </BlogCard>
@@ -50,8 +50,8 @@ const Projects = () => (
               </TagList>
             </div>
           <UtilityList>
-            <ExternalLinks href='https://github.com/Diyac004/prompts'>Code</ExternalLinks>
-            <ExternalLinks href='https://www.youtube.com/watch?v=UB0M1Uu1zNQ'>Video</ExternalLinks>
+            <ExternalLinks href='https://github.com/Diyac004/prompts' target='_blank'>Code</ExternalLinks>
+            <ExternalLinks href='https://www.youtube.com/watch?v=UB0M1Uu1zNQ' target='_blank'>Video</ExternalLinks>
 
           </UtilityList>
           </BlogCard>
