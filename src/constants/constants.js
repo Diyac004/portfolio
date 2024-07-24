@@ -1,46 +1,17 @@
 export const projects = [
   {
-    // title: 'All Seeing Boots',
-    // description: "Designed and developed smart shoes for the visually impaired using Raspberry Pi and Python, which enable obstacle detection and assess surface safety. Seamlessly integrated the hardware and software components to enhance the user experience.",
-    //    image: './images/6.png',
       tags: ['Raspberry Pi', 'Python'],
-    // video: 'https://youtu.be/_lTmuviq2Y0',
-    // visit: 'https://github.com/memcca14/Master-Project',
-    // id: 0,
   },
   {
-    // title: 'PromptME',
-    // description:"PromptME is an open-source platform for modern world to discover, create and share their Real-Life experiences and help others in the similar scenarios to make the right decision.",
-    // image: './images/promptME.png',
-    tags: ['React', 'JavaScript'],
-    // video: 'https://www.youtube.com/watch?v=UB0M1Uu1zNQ',
-    // visit: 'https://github.com/Diyac004/prompts',
-    // id: 1,
-   }/*,
-  // {
-  //   title: 'WebRTC App',
-  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //     image: '/images/3.jpg',
-  //     tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },*/
+    tags: ['React', 'JavaScript'], 
+   }
+  
 ];
 
 export const TimeLineData = [
   { year: 2022, text: 'Started my journey in Coding and Secured 83rd rank out of 9000 participants all over India in my first HPE CodeWars coding competition', },
-  { year: 2023, text: 'Started by College Journey and build my first Project in Coding with my teammates ', },
-  { year: 2024, text: 'Build my Portfolio Website', },
+  { year: 2023, text: 'Started my College Journey and build my first Project in Coding with my teammates ', },
+  { year: 2024, text: 'Build my Portfolio Website and started as Software Engineering Fellow at Headstarter AI', },
   /*{ year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },*/
 ];
