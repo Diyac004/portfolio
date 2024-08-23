@@ -4,6 +4,9 @@ export const projects = [
   },
   {
     tags: ['React', 'JavaScript'], 
+   },
+   {
+    tags: ['JavaScript', 'Tailwind CSS','Gemini AI', 'Firebase'], 
    }
   
 ];

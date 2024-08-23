@@ -72,6 +72,9 @@ const Technologies = () =>  {
         <ListParagraph data-aos="zoom-in-up">
         MongoDB<br/>
         </ListParagraph>
+        <ListParagraph data-aos="zoom-in-up">
+        Firebase<br/>
+        </ListParagraph>
       </ListContainer>
       </ListItem>
   </List>

@@ -4,17 +4,18 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
 const Projects = () => (
+  
   <Section nopadding id='projects'>
     
     <SectionTitle main>Projects</SectionTitle>
     <SectionDivider/>
     
-    <GridContainer>
+    <GridContainer >
    
-        <BlogCard>
+        <BlogCard data-aos="zoom-in-up">
       
           <Img src="./images/5.png"
-          alt="shoe image"/>
+          alt="shoe image" />
           <TitleContent>
             <HeaderThree title>All Seeing Boots</HeaderThree>
             <Hr/>
@@ -34,7 +35,29 @@ const Projects = () => (
 
           </UtilityList>
           </BlogCard>
-          <BlogCard>
+          <BlogCard data-aos="zoom-in-up">
+      
+          <Img src="./images/inventory.png"
+          alt="shoe image"/>
+          <TitleContent>
+            <HeaderThree title>Inventory Management</HeaderThree>
+            <Hr/>
+            </TitleContent>
+            <CardInfo>Developed a comprehensive inventory management web application that allows shop owners to track inventory levels across multiple store locations in real time. It integrates advanced AI algorithms to analyze sales data and provide actionable suggestions on which items to stock more heavily to maximize profits. The intuitive user interface ensures ease of use, while the real-time database management through Firebase guarantees up-to-date inventory tracking and reporting.</CardInfo>
+            <div>
+              <TagList>
+             
+                  <Tag>[JavaScript, Tailwind CSS, Gemini AI, Firebase]</Tag>
+                
+              </TagList>
+            </div>
+          <UtilityList>
+            <ExternalLinks href='https://github.com/Diyac004/inventory-ai' target='_blank'>Code</ExternalLinks>
+            <ExternalLinks href='https://youtu.be/JMY6sydLozc?si=msDWU2iPIT7alhW5' target='_blank'>Video</ExternalLinks>
+
+          </UtilityList>
+          </BlogCard>
+          <BlogCard data-aos="zoom-in-up">
       
           <VideoContainer><StyledVideo controls><source src="./images/promptmevid.mp4" type='video/mp4'/> video not found.</StyledVideo></VideoContainer>
           <TitleContent>
@@ -55,11 +78,12 @@ const Projects = () => (
 
           </UtilityList>
           </BlogCard>
+          
      
      
     </GridContainer>
     
   </Section>
-);
+  );
 
 export default Projects;

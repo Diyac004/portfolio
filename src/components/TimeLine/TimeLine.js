@@ -53,7 +53,7 @@ const Timeline = () => {
       <SectionTitle data-aos="fade-right">About Me</SectionTitle>
       <SectionDivider></SectionDivider>
       <SectionText>
-        I love learning new things and experimenting with different technologies.
+        You'll porlly find me watching movies, or playing Badminton in my free time. I love learning new things and experimenting with different technologies.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
