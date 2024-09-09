@@ -39,17 +39,13 @@ function Experience() {
                   August 2024 - Present
                 </time>
                 <ul>
-                  <li data-aos="fade-right">
-                  <GoDotFill color="#9ca3af"/><tab/> Support the program registration process for E2 by guiding participants through registration forms, ensuring accuracy, and troubleshooting any issues.
-
-                  </li>
                   <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>
                   Assist in delivering course content by supporting professors during lectures and lab sessions.
                   </li>
                   <li data-aos="fade-right"> <GoDotFill color="#9ca3af"/><tab/> Held office hours to help students with problem-solving, course material comprehension, and project completion.</li>
                   <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Collaborate with faculty to develop and implement instructional materials that enhanced student learning.</li>
                   <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Facilitate group discussions and provided one-on-one support to ensure students' understanding of complex mathematical concepts.</li>
-                  <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Helped maintain academic integrity by proctoring exams and providing grading support as needed.</li>
+                  
                 </ul>
               </li>
              
@@ -69,7 +65,7 @@ function Experience() {
                   Headstarter AI (Software Engineering Fellow)
                 </h3>
                 <time data-aos="fade-right">
-                  July 2024
+                  July 2024 - Present
                 </time>
                 <ul>
                   <li data-aos="fade-right">
