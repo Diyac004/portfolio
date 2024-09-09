@@ -21,7 +21,39 @@ function Experience() {
             </Section>
             <br/><br/>
             <ol>
-            
+            <span>
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                  </svg>
+                </span>
+                <li>
+                <h3 data-aos="fade-right">
+                  Instructional Aide & Grader (ASU)
+                </h3>
+                <time data-aos="fade-right">
+                  August 2024 - Present
+                </time>
+                <ul>
+                  <li data-aos="fade-right">
+                  <GoDotFill color="#9ca3af"/><tab/> Support the program registration process for E2 by guiding participants through registration forms, ensuring accuracy, and troubleshooting any issues.
+
+                  </li>
+                  <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>
+                  Assist in delivering course content by supporting professors during lectures and lab sessions.
+                  </li>
+                  <li data-aos="fade-right"> <GoDotFill color="#9ca3af"/><tab/> Held office hours to help students with problem-solving, course material comprehension, and project completion.</li>
+                  <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Collaborate with faculty to develop and implement instructional materials that enhanced student learning.</li>
+                  <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Facilitate group discussions and provided one-on-one support to ensure students' understanding of complex mathematical concepts.</li>
+                  <li data-aos="fade-right"><GoDotFill color="#9ca3af"/><tab/>Helped maintain academic integrity by proctoring exams and providing grading support as needed.</li>
+                </ul>
+              </li>
+             
+              
             <span>
                   <svg
                     aria-hidden="true"
@@ -69,7 +101,7 @@ function Experience() {
                   E2 Registration and Recruitment Assistant (ASU)
                 </h3>
                 <time data-aos="fade-right">
-                  March 2024
+                  March 2024 - August 2024
                 </time>
                 <ul>
                   <li data-aos="fade-right">
