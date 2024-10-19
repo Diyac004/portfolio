@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ExperienceContainer = styled.div`
   #Experience {  
+    
         ol {
           margin-left: 5rem;
           position: relative;

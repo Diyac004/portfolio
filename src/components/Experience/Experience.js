@@ -12,7 +12,7 @@ function Experience() {
   }, []);
 
   return (
-    <ExperienceContainer>
+    <ExperienceContainer padding-top='20px'>
       <div id="Experience"> 
           <div>
             <Section>
