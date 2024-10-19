@@ -10,7 +10,7 @@ const projectsData = [
         image: './images/orbit.png',
         tags: '[Nextjs, JavaScript, HTML/CSS, MongoDB, Vercel, Google Cloud Console]',
         code: 'https://github.com/Diyac004/sunhacks-orbit/tree/frontend',
-        demo: 'https://youtu.be/vh-CWneXBWc'
+        demo: 'https://arc.net/l/quote/cktiukwk'
       },
   {
     title: 'All Seeing Boots',
