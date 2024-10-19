@@ -35,7 +35,7 @@ onInit={(typewriter) => {
 />
     </SectionTitle>
     <SectionText>
-      I'm Diya Chaudhari, undergradute student at Arizona State Unviersity, majoring in Computer Science.
+      I'm Diya Chaudhari, undergradute student at Arizona State Unviersity, I'm currently majoring in Computer Science and pursuing a Minor in Business.
     </SectionText>
     <Button onClick={() => window.open('./Diya_Resume.pdf','_blank')}>Download Resume</Button>
   </LeftSection>
