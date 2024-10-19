@@ -37,7 +37,7 @@ onInit={(typewriter) => {
     <SectionText>
       I'm Diya Chaudhari, undergradute student at Arizona State Unviersity, majoring in Computer Science.
     </SectionText>
-    <Button onClick={() => window.open('/Diya_Resume.pdf','_blank')}>Download Resume</Button>
+    <Button onClick={() => window.open('./Diya_Resume.pdf','_blank')}>Download Resume</Button>
   </LeftSection>
  </Section>
 );
