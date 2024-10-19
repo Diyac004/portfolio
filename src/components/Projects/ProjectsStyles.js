@@ -111,7 +111,7 @@ export const TagList = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   margin: 0;
   list-style: none;
 `;
@@ -120,7 +120,7 @@ export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.4rem;
   background: rgba(255, 255, 255, 0.1);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   border-radius: 15px;
 `;
 
@@ -129,7 +129,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 3.5rem;
   margin: 2rem 0;
 `;
 
