@@ -15,7 +15,7 @@ export const TimeLineData = [
   { year: 2022, text: 'Started my journey in Coding and Secured 83rd rank out of 9000 participants all over India in my first HPE CodeWars coding competition', },
   { year: 2023, text: 'Started my College Journey and build my first Project in Coding with my teammates ', },
   { year: 2024, text: 'Build my Portfolio Website and started as Software Engineering Fellow at Headstarter AI', },
-  { year: 2024, text: 'Participated in SunHacks 2025 and successfully developed and deployed ORBIT with my fellow teammates within 24 hours', },
+  { year: 2024, text: 'Participated in SunHacks 2024 and successfully developed and deployed ORBIT with my fellow teammates within 24 hours', },
   // { year: 2021, text: 'Started my own platform', },
 ];
 export const data = [
